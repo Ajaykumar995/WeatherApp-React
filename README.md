@@ -1,16 +1,97 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive weather application built using **React** and **Material UI**. It fetches real-time weather data using the OpenWeather API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+👉 https://transcendent-cucurucho-3acce9.netlify.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🔍 Search weather by city name
+* 🌡️ Displays temperature, humidity, min/max temp
+* 🤗 Shows "feels like" temperature
+* ⚠️ Error handling for invalid city
+* 🎨 Clean UI using Material UI
+
+---
+
+## 🛠️ Tech Stack
+
+* React.js
+* Material UI
+* OpenWeather API
+* Netlify (Deployment)
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/weather-app.git
+```
+
+2. Navigate to project:
+
+```bash
+cd weather-app
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Create `.env` file:
+
+```env
+VITE_API_KEY=your_api_key_here
+```
+
+5. Run the app:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📦 Build
+
+```bash
+npm run build
+```
+
+---
+
+## 🔐 Environment Variables
+
+* `VITE_API_KEY` → OpenWeather API key
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here later)
+
+---
+
+## 👨‍💻 Author
+
+Ajay Kumar
+
+---
+
+## ⭐ Acknowledgements
+
+* OpenWeather API
+* Material UI
+
+---
